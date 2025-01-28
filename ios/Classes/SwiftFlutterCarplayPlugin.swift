@@ -176,7 +176,6 @@ public class SwiftFlutterCarplayPlugin: NSObject, FlutterPlugin {
       }
       FlutterCarPlaySceneDelegate.push(template: CPNowPlayingTemplate.shared, animated: animated)
       result(true)
-      // end of showNowPlaying
       break
     case FCPChannelTypes.pushTemplate:
       guard let args = call.arguments as? [String : Any] else {
