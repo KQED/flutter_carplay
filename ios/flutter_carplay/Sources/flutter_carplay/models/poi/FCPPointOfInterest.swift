@@ -6,6 +6,7 @@
 //
 
 import CarPlay
+import Flutter
 
 @available(iOS 14.0, *)
 class FCPPointOfInterest {

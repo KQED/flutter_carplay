@@ -5,6 +5,9 @@
 //  Created by Oğuzhan Atalay on 21.08.2021.
 //
 
+import Flutter
+import UIKit
+
 extension UIImage {
   convenience init?(withURL url: URL) throws {
     let imageData = try Data(contentsOf: url)
